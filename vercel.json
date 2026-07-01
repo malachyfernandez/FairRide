@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "mkdir -p dist && cp -R fairride-mock/. dist/",
+  "buildCommand": "npx expo export --platform web",
   "outputDirectory": "dist",
-  "installCommand": "echo 'No install needed for standalone demo'",
+  "installCommand": "npm install",
   "framework": null,
   "rewrites": [
     {
